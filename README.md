@@ -20,3 +20,12 @@ at first glance and to read clearly even at 300 pixels across.
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
+
+## Notes
+
+- The picture was generated fresh in the build session for this bounty and
+  resized to 1024x1024 JPEG (242,716 bytes); the file is stored as entry.png
+  although its bytes are JPEG, which the competition detects from the header.
+- The entry program only copies the picture byte for byte, so repeated runs
+  produce identical output.
+- Built and submitted as @magnetic for the food-picture-01 bounty.
